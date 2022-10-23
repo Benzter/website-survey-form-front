@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+body{
+    background-image: url(https://i.ibb.co/r6QD5Ks/pexels-christina-morillo-1181677.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 1600px 1100px;
+    background-color: rgba(91,90,157,1);
+    background-blend-mode:screen;
+    color:aliceblue;
+    font-family:'Poppins', sans-serif;
+    padding-bottom: 0%;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    
+}
+
+
+fieldset{
+    border: none;
+}
+
+label,#comment{
+    display: block;
+    
+}
+
+h1,#description{
+    text-align: center;
+    text-shadow: 0 0px 20px #120f0f;
+}
+
+form{
+    margin-top: auto;
+    width: 45vw;
+    max-width: 900px;
+    min-width: 600px;
+    margin:0 auto;
+    padding:45px 30px 45px 30px;
+    background-color:rgba(41,40,69,0.97);
+    font-size: 22px;
+    border-radius: 6px;
+    margin-bottom: 0;
+    
+}
+
+input{
+    margin-top: 6px;
+    margin-bottom: 30px;
+    width: 95%;
+    min-height: 2em;
+    font-size: 15px;
+    padding: 3px 9px;
+    border-radius: 6px;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#description{
+    font-style: italic;
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+select{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 2.4em;
+    font-size: 15px;
+    padding: 3px 9px;
+    border-radius: 6px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.inline{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+
+#number{
+    margin-bottom: 0;
+}
+
+.p-top{
+    margin-top:30px;
+    margin-bottom: 2px;
+}
+
+textarea{
+    width: 95%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px ;
+    margin:auto;
+}
+
+input[type="submit"]{
+    background-color: rgb(55,175,101);
+    width: 100%;
+    color: aliceblue;
+    display: block;
+    min-width: 300px;
+    margin-top: 30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
